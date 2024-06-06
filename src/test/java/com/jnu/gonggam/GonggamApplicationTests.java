@@ -1,4 +1,4 @@
-package com.example.gonggam;
+package com.jnu.gonggam;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

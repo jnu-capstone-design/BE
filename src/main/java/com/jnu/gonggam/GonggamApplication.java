@@ -1,4 +1,4 @@
-package com.example.gonggam;
+package com.jnu.gonggam;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

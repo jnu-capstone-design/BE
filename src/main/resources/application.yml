@@ -1,4 +1,8 @@
 server:
+    servlet:
+        encoding:
+            charset: utf-8
+            force: true
     port: 8080
 
 spring:
@@ -9,3 +13,19 @@ spring:
         url: jdbc:h2:mem:test;MODE=MySQL
         username: sa
         password:
+    h2:
+        console:
+            enabled: true
+    jpa:
+        hibernate:
+            ddl-auto: create
+        show-sql: true
+        properties:
+            hibernate:
+                "[format_sql]": true
+            "[default_batch_fetch_size]": 100
+        open-in-view: true
+logging:
+    level:
+        '[com.example.gonggam]': DEBUG
+        '[org.hibernate.type]': TRACE

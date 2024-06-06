@@ -1,4 +1,4 @@
-package com.jnu.gonggam.purchase;
+package com.jnu.gonggam.product.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-@Table(name = "purchase_tb")
-public class Purchase {
+@Table(name = "product_image_tb")
+public class ProductImage {
 }

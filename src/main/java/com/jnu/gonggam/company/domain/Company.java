@@ -1,4 +1,4 @@
-package com.jnu.gonggam.category;
+package com.jnu.gonggam.company.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Table;
@@ -9,6 +9,6 @@ import lombok.NoArgsConstructor;
 @Getter
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @Entity
-@Table(name = "category_tb")
-public class Category {
+@Table(name = "company_tb")
+public class Company {
 }

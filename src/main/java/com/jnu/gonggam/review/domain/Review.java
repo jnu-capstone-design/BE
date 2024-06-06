@@ -1,4 +1,4 @@
-package com.jnu.gonggam.user;
+package com.jnu.gonggam.review.domain;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.EntityListeners;
@@ -12,6 +12,6 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 @EntityListeners(AuditingEntityListener.class)
 @Entity
-@Table(name = "user_tb")
-public class User {
+@Table(name = "review_tb")
+public class Review {
 }

@@ -34,7 +34,7 @@ public class Review {
     private Product product;
 
     @NotNull
-    private int starAverage;
+    private Integer starAverage;
 
     @NotNull
     @Column(length = 600)
@@ -55,7 +55,7 @@ public class Review {
 
     @Builder
     public Review(Long id, Purchase purchase, Product product,
-                  int starAverage, String content, String reviewImagePath) {
+                  Integer starAverage, String content, String reviewImagePath) {
         this.id = id;
         this.purchase = purchase;
         this.product = product;

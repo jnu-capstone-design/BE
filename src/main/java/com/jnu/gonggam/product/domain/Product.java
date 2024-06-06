@@ -38,16 +38,16 @@ public class Product {
     private String name;
 
     @NotNull
-    private int stock;
+    private Integer stock;
 
     @NotNull
-    private int purchasePrice;
+    private Integer purchasePrice;
 
     @NotNull
-    private int regularPrice;
+    private Integer regularPrice;
 
     @NotNull
-    private int discountRate;
+    private Integer discountRate;
 
     @NotNull
     private String content;
@@ -66,8 +66,8 @@ public class Product {
     private LocalDateTime deleteAt;
 
     @Builder
-    public Product(Long id, Company company, Category category, String name, int stock,
-                   int purchasePrice, int regularPrice, String content, LocalDateTime expireAt) {
+    public Product(Long id, Company company, Category category, String name, Integer stock,
+                   Integer purchasePrice, Integer regularPrice, String content, LocalDateTime expireAt) {
         this.id = id;
         this.company = company;
         this.category = category;
